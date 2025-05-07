@@ -1,0 +1,27 @@
+/* código omitido */
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .conteudo {
+        width: 90%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}
+<form>
+  <input type="text" id="name" placeholder="Digite seu nome">
+  <input type="email" id="email" placeholder="Digite seu e-mail">
+  <input type="submit" value="Enviar">
+</form>
